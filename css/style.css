@@ -1,0 +1,989 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 6, 2017, 12:01:21 PM
+    Author     : Korisnik
+*/
+.container{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/*********Header Start********************/
+
+header{
+    background-color: #ffffff;
+}
+
+.container h1{
+    float: left;
+}
+
+.container nav ul{
+    float: right;
+}
+
+.container .logo a img{
+    padding: 45px 0 45px 40px;
+}
+
+.container nav ul li{
+    display: inline-block;
+    padding-top: 70px;
+    padding-bottom: 75px;
+    transition: 0.5s linear;
+}
+
+.container nav ul li:hover{
+   transform: translateX(7px);
+}
+
+.container nav ul li:last-of-type{
+    transition: 0.5s linear;
+}
+
+.container nav ul li:last-of-type:hover{
+    transform: scale(1.3);
+}
+
+nav ul li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #777777;
+    font-size: 17px;
+    margin-left: 30px;
+    
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+nav li:last-of-type a{
+    font-family: 'Roboto', sans-serif;
+    color: #5dae87;
+    border: 1px solid #5dae87;
+    font-size: 18px;
+    padding: 2px 25px;
+    border-radius: 30px;
+    margin-right: 40px;
+}
+/*********Header End********************/
+
+/************Section Lead Start***************/
+
+.lead{
+    background-position: top center; 
+    background-size: cover;
+    text-align: center;
+    padding-top: 280px;
+    padding-bottom: 300px;
+}
+
+.lead h2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 108px;
+    color: #444444;
+    margin-bottom: 40px;
+}
+
+.lead p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #777777;
+    margin-bottom: 80px;
+}
+
+.try-learn a{
+    display: inline-block;
+    border: 1px solid #444444;
+    color: #444444;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 60px;
+    transition: 0.5s linear;
+    opacity: 1;
+}
+
+.try-learn a:hover{
+    background-color: #5dae87;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.try-learn a:first-of-type{
+     margin-right: 22px; 
+}
+
+/***********Section Lead End**************/
+
+/************Section Chase Start********************/
+
+.chase{
+    padding-top: 170px;
+    padding-bottom: 120px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.chase h3{
+   font-family: 'Roboto', sans-serif;
+   font-size: 54px;
+   color: #444444;
+   text-transform: uppercase;
+   margin-bottom: 40px;
+}
+
+.chase h4{
+    font-family: 'Roboto', sans-serif;
+    color: #5dae87;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.chase .video{
+    margin-bottom: 70px;
+}
+
+.chase .begin a{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #5dae87;
+    padding: 20px 60px;
+    border-radius: 30px;
+    transition: 1s ease;
+}
+
+.chase .begin a:hover{
+    transform: scale(1.1);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/************Section Chase End********************/
+
+/************Section Services Start********************/
+
+.services{
+    padding-top: 145px;
+    padding-bottom: 205px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.services h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 54px;
+    color: #444444;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.services h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #5dae87;
+    margin-bottom: 115px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*******Articles Start************/
+
+.services article{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    background-color: #ffffff;
+    padding-top: 45px;
+    padding-bottom: 65px;
+    transition: 1s ease-out;   
+}
+
+.services article:last-of-type{
+    margin-right: 0;
+}
+
+.services .container article .circle{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    margin-bottom: 45px;
+    transition: 1s linear;
+}
+
+.services .container article .circle .fa{
+    text-align: center;
+    color: #677871;
+    line-height: 100px;
+    font-size: 50px;
+}
+
+.services .container article .circle:hover .fa{
+    transform: scale(1.5);
+}
+
+.services .container article h4{
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    color: #444444;
+}
+
+.services .container article p{
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 25px;
+    height: 75px;
+    overflow: hidden;
+}
+
+.services .container article .more{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #bbbbbb;
+    margin-bottom: 65px;
+    text-transform: uppercase;
+}
+
+.services .container article .more:hover{
+    color: #5dae87;
+}
+
+.services .container article:hover{
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+    
+/*    padding-top: 65px;
+    padding-bottom: 85px;*/
+}
+
+/*******Articles End************/
+
+
+/************Section Services End********************/
+
+
+/**********************Section Ideas Start*****************/
+
+.ideas{
+    padding: 150px 65px 170px 85px;
+    background-color: #ffffff;
+}
+
+.ideas .container article{
+    width: 50%;
+    float: left;
+    padding: 0 55px; 
+}
+
+.ideas .container article h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 54px;
+    color: #444444;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.ideas .container article h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #5dae87;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.ideas .container article p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #444444;
+    line-height: 25px;
+}
+
+.ideas .container article p:first-of-type{
+    margin-bottom: 40px;
+}
+
+.ideas .container article figure{
+    display: inline-block;
+    text-align: center;
+}
+
+/*****Animation Start*******/
+
+@-webkit-keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {
+  -webkit-animation-name: hvr-pulse-shrink;
+  animation-name: hvr-pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+
+/*****Animation End*************/
+
+
+/**********************Section Ideas End*****************/
+
+
+/**********************Section Items Start*****************/
+
+.items{
+    padding-top: 190px;
+    padding-bottom: 195px;
+}
+
+.items .container article{
+    float: left;
+    width: 50%;
+    padding: 0 40px;
+}
+
+.items .container article:first-of-type,
+.items .container article:nth-of-type(2){
+    margin-bottom: 160px;
+}
+
+.items article a{
+    float: left;
+}
+
+
+.items article a .fa{
+    font-size: 80px;
+    color: #fff;
+    margin-right: 35px;
+    transition: 1s linear;
+}
+
+.items article a:hover .fa{
+    transform: rotate(360deg);
+}
+
+.items article .side h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.items article .side p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #bfeed7;
+    line-height: 25px;
+}
+
+
+/**********************Section Items End*****************/
+
+
+/**********************Section Talk Start - Padding jos*****************/
+
+.talk{
+    padding: 148px 250px;
+}
+
+.talk .container .listen{
+    float: left;
+    width: 50%;
+   
+    
+}
+
+.talk .container .comment{
+    float: right;
+    width: 50%;
+   
+}
+
+.talk .container .listen h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 54px;
+    color: #444444;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.talk .container .listen h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #5dae87;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.talk .container .listen p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #777777;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.talk .container .listen ul li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+.talk .container .listen ul li:last-of-type{
+    margin-bottom: 0;
+}
+
+.talk .container .listen ul li .fa{
+    margin-right: 20px;
+    color: #5dae87;
+}
+
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/**********************Section Talk End - Padding jos*****************/
+
+/**********************Section Team Start - Tim*****************/
+
+.team{
+    padding-top: 145px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.team .container h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 54px;
+    color: #444444;
+    margin-bottom: 37px;
+    text-transform: uppercase;
+}
+
+.team .container h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #5dae87;
+    margin-bottom: 215px;
+    text-transform: uppercase;
+}
+
+.team .container .members{
+    float: left;
+    width: 30%;
+    background-color: #fff;
+    margin-right: 5%;
+}
+
+.team .container .members:hover{
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+}
+
+.team .container .members:last-of-type{
+    margin-right: 0;
+}
+
+.team .container .members figure img{
+    border-radius: 50%;
+    margin-top: -25%;
+    margin-bottom: 35px;
+    transition: 1s linear;
+}
+
+.team .container .members figure:hover img{
+    transform: scale(1.2);
+}
+
+.team .container .members h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    color: #444444;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.team .container .members h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #444444;
+    margin-bottom: 40px;
+}
+
+.team .container .members ul{
+    margin-bottom: 45px;
+}
+
+.team .container .members ul li{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-color: #e4e4e4;
+    border-radius: 50%;
+    line-height: 45px;
+    margin-right: 15px;
+    transition: 1s linear;
+}
+
+.team .container .members ul li:last-of-type{
+    margin-right: 0;
+}
+
+.team .container .members ul li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+
+.team .container .members ul li:hover{
+    background-color: #5dae87;
+    transform: rotate(360deg);
+}
+
+/**********************Section Team End*****************/
+
+/**********************Section Portfolio Start*****************/
+
+.portfolio{
+    padding-top: 150px;
+    padding-bottom: 193px;
+    text-align: center;
+}
+
+.portfolio .container h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 54px;
+    color: #444444;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.portfolio .container h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #5dae87;
+    text-transform: uppercase;
+    margin-bottom: 120px;
+}
+
+.portfolio .container article{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.portfolio .container article:nth-of-type(3n){
+    margin-right: 0;
+}
+
+.portfolio .container article:first-of-type,
+.portfolio .container article:nth-of-type(2),
+.portfolio .container article:nth-of-type(3n){
+    margin-bottom: 40px;
+}
+
+.portfolio article figure{
+    position: relative;
+}
+ 
+.portfolio article figure img{
+    width: 100%;
+}
+
+.portfolio article figure .hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: rgba(255,255,255,0.5);
+    transition: 1s linear;
+}
+
+.portfolio article figure:hover .hover{
+    height: 100%;
+    width: 100%;
+}
+
+
+/**********************Section Portfolio End*****************/
+
+
+/**********************Section Subscribe Start*****************/
+
+.subscribe{
+    padding: 150px 200px 143px 210px;
+    text-align: center;
+}
+
+.subscribe .container h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 54px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.subscribe .container h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #bfeed7;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.subscribe form .input-group{
+   width: 30%;
+   float: left;
+}
+
+.subscribe form .input-group input:focus{
+    box-shadow: 0 0 20px #000;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.subscribe form .input-group input{
+    width: 80%;
+    height: 60px;
+    border-radius: 30px;
+    border: 3px solid #b4dac7;
+    background-color: #5dae87;
+    padding: 0 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.subscribe form .input-group:last-of-type input{
+    background-color: #fff;
+    color: #5dae87;
+}
+
+.input-group input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #000;
+}
+.input-group input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #b4dac7;
+   opacity:  1;
+}
+.input-group input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #b4dac7;
+   opacity:  1;
+}
+.input-group input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #b4dac7;
+}
+.input-group input::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #b4dac7;
+}
+
+/**********************Section Subscribe End *****************/
+
+/**********************Section Pricing Start *****************/
+
+.pricing .container{
+    padding-top: 150px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.pricing .container h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 54px;
+    color: #444444;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.pricing .container h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #5dae87;
+    text-transform: uppercase;
+    margin-bottom: 125px;
+}
+
+.pricing .container article{
+    padding-top: 65px;
+    padding-bottom: 70px;
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    background-color: #fff;
+    transition: 1s linear;
+}
+
+.pricing .container article:last-of-type{
+    margin-right: 0;
+}
+
+.pricing .container article:hover{
+     box-shadow: 0 0 30px rgba(0,0,0,0.1);
+     transform: translateY(-5px);
+}
+
+.pricing .container article h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 86px;
+    color: #444444;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.pricing .container article h3 .dolar{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    color: #444444;
+}
+
+.pricing .container article h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    color: #444444;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.pricing .container article h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.pricing .container article h5:last-of-type{
+    margin-bottom: 55px;
+}
+
+.pricing .container article .begin a{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #5dae87;
+    padding: 20px 60px;
+    border-radius: 30px;
+    transition: 1s linear;
+}
+
+.pricing .container article .begin a:hover{
+    border-radius: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #dadada;
+    color: #5dae87;
+}
+
+/**********************Section Pricing End*****************/
+
+
+/**********************Section Start Start *****************/
+
+.start{
+    padding-top: 155px;
+    padding-bottom: 125px;
+    text-align: center;
+}
+
+.start .container h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 54px;
+    color: #444444;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.start .container h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #5dae87;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.start .container .begin a{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #5dae87;
+    padding: 20px 60px;
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+    opacity: 1;
+}
+
+.start .container .begin a:hover{
+    opacity: 0.8;
+    color: #444;
+    font-weight: bold;
+    transform: rotate(360deg);
+}
+
+/**********************Section Start End**********************/
+
+
+/******************Footer Start*******************/
+
+footer{
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+
+footer .container .logo1,
+footer .container .copy{
+    float: left;
+}
+
+footer .container .social{
+    float: right;
+}
+
+footer .container .logo1 a img{
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+footer .container .copy p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer .copy .terms li {
+    display: inline-block;
+}
+
+footer .copy .terms li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #bbbbbb;
+    display: block;
+    border-left: 1px solid #bbbbbb;
+    transition: 1s linear;
+}
+
+footer .copy .terms li:first-of-type a{
+    border-left: 0;
+    padding-right: 10px;
+}
+
+footer .copy .terms li:nth-of-type(2) a,
+footer .terms li:last-of-type a{
+    padding: 0 10px;
+}
+
+footer .copy .terms li a:hover{
+    color: #5dae87;
+    transform: scale(1.1);
+}
+
+footer .container .social li {
+    display: inline-block
+}
+
+footer .container .social li a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #363636;
+    border-radius: 50%;
+    text-align: center;
+}
+
+footer .container .social li a:hover{
+    background-color:#5dae87; 
+}
+
+footer .container .social li a .fa{
+    color: #fff;
+    line-height: 50px;
+    transition: 1s linear;  
+    font-size: 20px;
+}
+
+footer .container .social li a:hover .fa{
+    transform: rotate(360deg);
+}
+
+/******************Footer End*******************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
